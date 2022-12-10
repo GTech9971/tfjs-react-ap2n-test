@@ -11,6 +11,7 @@ import { LoadImg } from './components/LoadImg';
 import { LoadTfHub } from './components/LoadTfHub';
 import { SimpleTtt } from './components/SimpleTtt';
 import { CropImg } from './components/CropImg';
+import { BoundingBox } from './components/BoundingBox';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/LoadTfHub",
     element: <LoadTfHub />
+  },
+  {
+    path: "/BoundingBox",
+    element: <BoundingBox />
   }
 ]);
 

@@ -7,6 +7,7 @@ export const App = () => {
       <li><Link to="/LoadImg">LoadImg</Link></li>
       <li><Link to="CropImg">CropImg</Link></li>
       <li><Link to="/LoadTfHub">LoadTfHub</Link></li>
+      <li><Link to="/BoundingBox">BoundingBox</Link></li>
     </ul>
   );
 }
