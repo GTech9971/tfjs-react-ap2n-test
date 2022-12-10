@@ -1,17 +1,12 @@
-import { TensorCanvas } from './components/TensorCanvas';
-import { LoadImg } from './components/LoadImg';
-import { CropImg } from './components/CropImg';
-import { SimpleTtt } from './components/SimpleTtt';
-import { LoadTfHub } from './components/LoadTfHub';
-
+import { Link } from 'react-router-dom';
 export const App = () => {
   return (
-    <>
-      <TensorCanvas />
-      <LoadImg />
-      <CropImg />
-      <SimpleTtt />
-      <LoadTfHub />
-    </>
+    <ul>
+      <li><Link to="/TensorCanvas">TensorCanvas</Link></li>
+      <li><Link to="SimpleTtt">SimpleTtt</Link></li>
+      <li><Link to="/LoadImg">LoadImg</Link></li>
+      <li><Link to="CropImg">CropImg</Link></li>
+      <li><Link to="/LoadTfHub">LoadTfHub</Link></li>
+    </ul>
   );
 }
