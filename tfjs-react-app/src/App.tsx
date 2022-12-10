@@ -2,6 +2,7 @@ import { TensorCanvas } from './components/TensorCanvas';
 import { LoadImg } from './components/LoadImg';
 import { CropImg } from './components/CropImg';
 import { SimpleTtt } from './components/SimpleTtt';
+import { LoadTfHub } from './components/LoadTfHub';
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <LoadImg />
       <CropImg />
       <SimpleTtt />
+      <LoadTfHub />
     </>
   );
 }
