@@ -13,6 +13,7 @@ import { SimpleTtt } from './components/SimpleTtt';
 import { CropImg } from './components/CropImg';
 import { BoundingBox } from './components/BoundingBox';
 import { UseWebcam } from './components/UseWebcam';
+import { TargetSiteDetect } from './components/TargetSiteDetect';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "/UseWebcam",
     element: <UseWebcam />
+  },
+  {
+    path: "/TargetSiteDetect",
+    element: <TargetSiteDetect />
   }
 ]);
 
