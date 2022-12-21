@@ -10,6 +10,7 @@ export const App = () => {
       <li><Link to="/BoundingBox">BoundingBox</Link></li>
       <li><Link to="/UseWebcam">UseWebcam</Link></li>
       <li><Link to="/TargetSiteDetect">TargetSiteDetect</Link></li>
+      <li><Link to="/ShootInfoDetect">ShootInfoDetect</Link></li>
     </ul>
   );
 }

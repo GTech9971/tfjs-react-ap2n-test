@@ -14,6 +14,7 @@ import { CropImg } from './components/CropImg';
 import { BoundingBox } from './components/BoundingBox';
 import { UseWebcam } from './components/UseWebcam';
 import { TargetSiteDetect } from './components/TargetSiteDetect';
+import { ShootInfoDetect } from './components/ShootInfoDetect';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
   {
     path: "/TargetSiteDetect",
     element: <TargetSiteDetect />
+  },
+  {
+    path: "/ShootInfoDetect",
+    element: <ShootInfoDetect />
   }
 ]);
 
